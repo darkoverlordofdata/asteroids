@@ -1,0 +1,37 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 20
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "com.darkoverlordofdata.asteroids"
+        minSdkVersion 14
+        targetSdkVersion 20
+
+        ndk {
+            moduleName "cocos2djs_shared"
+        }
+    }
+    sourceSets.main {
+        jni.srcDirs = []
+    }
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE-FIREBASE.txt'
+        exclude 'META-INF/NOTICE'
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile project(':libcocos2dx')
+    compile 'com.android.support:support-v4:22.2.0'
+    compile 'com.facebook.android:facebook-android-sdk:4.3.0'
+    compile 'com.firebase:firebase-client-android:2.3.1'
+}

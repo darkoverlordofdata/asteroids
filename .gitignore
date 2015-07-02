@@ -1,7 +1,15 @@
-frameworks
 runtime
 tools
 node_modules
 packages
 tmp
 build
+sign.sh
+
+web/frameworks/cocos2d-html5
+web/frameworks/js-bindings
+web/frameworks/runtime-src/proj.android
+web/frameworks/runtime-src/proj.ios_mac
+web/frameworks/runtime-src/proj.linux
+web/frameworks/runtime-src/proj.win8.1-universal
+web/frameworks/runtime-src/proj.win32

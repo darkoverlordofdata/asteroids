@@ -1,7 +1,266 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5c17cac-8339-4179-9902-1c708ee38c32" name="Default" comment="" />
+    <list default="true" id="e5c17cac-8339-4179-9902-1c708ee38c32" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/res/BackdropBlackLittleSparkBlack.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/images/BackdropBlackLittleSparkBlack.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/images/BackdropBlackLittleSparkBlack1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/CloseNormal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/CloseSelected.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/HelloWorld.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/res/sounds/asteroid.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/sounds/asteroid.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/asteroids-1280x768.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/asteroids.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/asteroids.xcf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/asteroids1024.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/asteroids144.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/asteroids192.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/asteroids36.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/asteroids48.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/asteroids72.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/asteroids96.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/asteroids_banner.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/res/icons/b_Background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/icons/b_Background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/res/icons/b_Forward1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/icons/b_Forward1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/res/icons/b_Forward2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/icons/b_Forward2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/res/icons/b_Leaderboard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/icons/b_Leaderboard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/res/icons/b_More1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/icons/b_More1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/res/icons/b_More2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/icons/b_More2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/res/icons/b_Music.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/icons/b_Music.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/res/icons/b_No.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/icons/b_No.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/res/icons/b_Parameters.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/icons/b_Parameters.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/res/icons/b_Pause1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/icons/b_Pause1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/res/icons/b_Pause3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/icons/b_Pause3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/res/icons/b_Play1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/icons/b_Play1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/res/icons/b_Play2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/icons/b_Play2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/res/icons/b_Restart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/icons/b_Restart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/res/icons/b_Sound1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/icons/b_Sound1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/res/icons/b_Sound1_Inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/icons/b_Sound1_Inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/res/icons/b_Sound2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/icons/b_Sound2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/res/icons/b_Sound2_Inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/icons/b_Sound2_Inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/res/icons/b_Yes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/icons/b_Yes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/res/background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/images/background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/res/black-button-off.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/images/black-button-off.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/res/black-button-on.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/images/black-button-on.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/res/black-dialog.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/images/black-dialog.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/libs/bolts-android-1.1.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/controls_overlay/buttonblue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/controls_overlay/buttongreen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/controls_overlay/buttonred.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/controls_overlay/buttonyellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cover_image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/res/dialog-box.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/images/dialog-box.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/dpad.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/controls_overlay/dpad.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/en_generic_rgb_wo_45.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/favicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/images/fb-login.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/images/fb-login1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/images/fb_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/feature.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/fire.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/libs/firebase-client-android-2.3.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/res/gameover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/gradle/wrapper/gradle-wrapper.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/res/drawable-hdpi/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/res/drawable-ldpi/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/res/drawable-mdpi/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/jniLibs/armeabi/libcocos2djs.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/res/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/logo.xcf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/controls_overlay/pad.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/res/round48.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/images/round48.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/screen1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/screen2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/screen3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/screen4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/res/sounds/ship.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/sounds/ship.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/res/sounds/shoot.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/sounds/shoot.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/splash.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/res/square48.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/images/square48.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/res/standard-button-off.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/images/standard-button-off.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/res/standard-button-on.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/images/standard-button-on.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/res/starfield.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/images/touchend.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/images/touchorigin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/warp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/web_banner.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/jni/Android.mk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/libcocos2dx/src/main/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/java/org/cocos2dx/javascript/AppActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/Classes/AppDelegate.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/Classes/AppDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/jni/Application.mk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/libcocos2dx/src/main/java/org/cocos2dx/lib/Cocos2dxAccelerometer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/libcocos2dx/src/main/java/org/cocos2dx/lib/Cocos2dxActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/libcocos2dx/src/main/java/org/cocos2dx/lib/Cocos2dxBitmap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/libcocos2dx/src/main/java/org/cocos2dx/lib/Cocos2dxEditBoxDialog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/libcocos2dx/src/main/java/org/cocos2dx/lib/Cocos2dxEditText.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/libcocos2dx/src/main/java/org/cocos2dx/lib/Cocos2dxGLSurfaceView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/libcocos2dx/src/main/java/org/cocos2dx/lib/Cocos2dxHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/libcocos2dx/src/main/java/org/cocos2dx/lib/Cocos2dxHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/libcocos2dx/src/main/java/org/cocos2dx/lib/Cocos2dxHttpURLConnection.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/libcocos2dx/src/main/java/org/cocos2dx/lib/Cocos2dxLocalStorage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/libcocos2dx/src/main/java/org/cocos2dx/lib/Cocos2dxLuaJavaBridge.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/libcocos2dx/src/main/java/org/cocos2dx/lib/Cocos2dxMusic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/libcocos2dx/src/main/java/org/cocos2dx/lib/Cocos2dxRenderer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/libcocos2dx/src/main/java/org/cocos2dx/lib/Cocos2dxSound.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/libcocos2dx/src/main/java/org/cocos2dx/lib/Cocos2dxTextInputWraper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/libcocos2dx/src/main/java/org/cocos2dx/lib/Cocos2dxTypefaces.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/libcocos2dx/src/main/java/org/cocos2dx/lib/Cocos2dxVideoHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/libcocos2dx/src/main/java/org/cocos2dx/lib/Cocos2dxVideoView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/libcocos2dx/src/main/java/org/cocos2dx/lib/Cocos2dxWebView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/libcocos2dx/src/main/java/org/cocos2dx/lib/Cocos2dxWebViewHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/libcocos2dx/src/main/java/com/chukong/cocosplay/client/CocosPlayClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/debugger/DevToolsUtils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/libcocos2dx/src/main/java/org/cocos2dx/lib/GameControllerAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/libcocos2dx/src/main/java/org/cocos2dx/lib/GameControllerDelegate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/libcocos2dx/src/main/java/org/cocos2dx/lib/GameControllerUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/controls_overlay/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/controls_overlay/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/debugger/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/studio/parsers/action-1.x.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/studio/parsers/action-2.x.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/src/ash/ash.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/src/ash/ash.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/src/ash/ash.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/src/asteroids/asteroids.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/src/asteroids/asteroids.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/src/asteroids/asteroids.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/.idea/libraries/bolts_android_1_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/src/box2d/box2d.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/src/box2d/box2d.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/src/box2d/box2dweb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/build.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/libcocos2dx/build.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/build.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/.gradle/2.2.1/taskArtifacts/cache.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/studio/parsers/compatible.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/.idea/libraries/facebook_android_sdk_4_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/.idea/libraries/firebase_client_android_2_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/.idea/libraries/firebase_client_jvm_2_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/.idea/gradle.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/gradlew.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/gradlew" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hashkey.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/import-summary.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/.idea/libraries/jackson_annotations_2_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/.idea/libraries/jackson_core_2_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/.idea/libraries/jackson_databind_2_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/jsb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/jsb_boot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/ccui/jsb_ccui_create_apis.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/ccui/jsb_ccui_deprecated.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/ccui/jsb_ccui_property_apis.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/ccui/jsb_ccui_property_impls.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/chipmunk/jsb_chipmunk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/chipmunk/jsb_chipmunk_constants.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/jsb_cocos2d.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/3d/jsb_cocos2d_3d.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/3d/jsb_cocos2d_3d_ext.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/jsb_cocos2d_constants.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/extension/jsb_cocos2d_extension.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/studio/jsb_cocos2d_studio.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/ccui/jsb_cocos2d_ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/jsb_cocosbuilder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/jsb_common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/jsb_create_apis.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/jsb_debugger.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/jsb_deprecated.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/extension/jsb_ext_create_apis.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/extension/jsb_ext_property_apis.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/jsb_loaders.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/jsb_opengl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/jsb_opengl_constants.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/physicsSprite/jsb_physicsSprite.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/jsb_pool.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/jsb_property_apis.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/jsb_property_impls.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/jsb_spine.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/studio/jsb_studio_boot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/studio/jsb_studio_create_apis.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/studio/jsb_studio_load.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/studio/jsb_studio_property_apis.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/res/values/keys.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/libcocos2dx/libcocos2dx.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/libcocos2dx/lint.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/loading.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/local.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/src/localstoragedb/localstoragedb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/src/localstoragedb/localstoragedb.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/jni/hellojavascript/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/debugger/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/proj.androidstudio.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/project.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/debugger/core/promise.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/debugger/actors/root.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/studio/parsers/scene-1.x.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/debugger/actors/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/settings.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/res/sounds/source.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/res/sounds/source.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/res/values/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/.idea/libraries/support_annotations_22_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/.idea/libraries/support_v4_22_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/studio/parsers/timelineParser-1.x.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/studio/parsers/timelineParser-2.x.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/debugger/transport.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/.idea/libraries/tubesock_0_0_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/script/studio/parsers/uiParser-1.x.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/web.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/publish.sh" afterPath="$PROJECT_DIR$/bin/publish.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="asteroids.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,13 +280,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="project.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/project.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.6666665">
+              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.23809524">
+              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.785714">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
           </provider>
         </entry>
       </file>
@@ -44,7 +326,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lib/src/ecs/entities.coffee" />
         <option value="$PROJECT_DIR$/lib/src/ecs/systems/render_system.coffee" />
         <option value="$PROJECT_DIR$/web/index.html" />
         <option value="$PROJECT_DIR$/web/CMakeLists.txt" />
@@ -64,7 +345,6 @@
         <option value="$PROJECT_DIR$/lib/src/controller/TouchableButton.coffee" />
         <option value="$PROJECT_DIR$/lib/src/ui/DpadController.coffee" />
         <option value="$PROJECT_DIR$/lib/src/ui/WarpButton.coffee" />
-        <option value="$PROJECT_DIR$/web/project.json" />
         <option value="$PROJECT_DIR$/lib/src/ecs/Components.coffee" />
         <option value="$PROJECT_DIR$/lib/src/ui/KeyPoll.coffee" />
         <option value="$PROJECT_DIR$/lib/prolog.coffee" />
@@ -72,7 +352,6 @@
         <option value="$PROJECT_DIR$/lib/src/ecs/systems/SmoothPhysicsSystem.coffee" />
         <option value="$PROJECT_DIR$/lib/src/ecs/systems/DeathThroesSystem.coffee" />
         <option value="$PROJECT_DIR$/lib/src/ecs/systems/BulletAgeSystem.coffee" />
-        <option value="$PROJECT_DIR$/bin/publish.sh" />
         <option value="$PROJECT_DIR$/lib/src/ecs/systems/FixedPhysicsSystem.coffee" />
         <option value="$PROJECT_DIR$/lib/src/ui/FireButton.coffee" />
         <option value="$PROJECT_DIR$/lib/src/ecs/systems/GameManager.coffee" />
@@ -88,13 +367,16 @@
         <option value="$PROJECT_DIR$/lib/filelist" />
         <option value="$PROJECT_DIR$/lib/src/ui/GameController.coffee" />
         <option value="$PROJECT_DIR$/lib/src/Game.coffee" />
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/web/frameworks/runtime-src/proj.android/.classpath" />
         <option value="$PROJECT_DIR$/web/frameworks/runtime-src/proj.android/local.properties" />
         <option value="$PROJECT_DIR$/web/frameworks/runtime-src/proj.android/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/web/frameworks/runtime-src/proj.android/res/values/messenger_button_styles.xml" />
         <option value="$PROJECT_DIR$/web/frameworks/runtime-src/proj.android/src/org/cocos2dx/javascript/AppActivity.java" />
         <option value="$PROJECT_DIR$/lib/src/ecs/systems/ShipControlSystem.coffee" />
+        <option value="$PROJECT_DIR$/web/project.json" />
+        <option value="$PROJECT_DIR$/bin/publish.sh" />
+        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -240,11 +522,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/web/frameworks/runtime-src/proj.androidstudio/web/src/main/assets/src/asteroids" />
       <recent name="$PROJECT_DIR$/web/frameworks/runtime-src/proj.android/res/drawable-mdpi" />
       <recent name="$PROJECT_DIR$/web/frameworks/runtime-src/proj.android/res" />
       <recent name="$PROJECT_DIR$/web/frameworks/runtime-src/proj.android/res/drawable-hdpi" />
-      <recent name="$PROJECT_DIR$/web/frameworks/runtime-src/proj.android" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web/frameworks/runtime-src/proj.android" />
@@ -377,16 +659,18 @@
     <frame x="-1" y="0" width="1368" height="742" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2550186" sideWeight="0.40657085" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2550186" sideWeight="0.39917696" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2550186" sideWeight="0.59342915" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2550186" sideWeight="0.60082304" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19333333" sideWeight="0.5063197" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19" sideWeight="0.4936803" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2535316" sideWeight="0.5583864" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -394,13 +678,11 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1910299" sideWeight="0.4936803" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="combo" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -457,17 +739,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/manifest.webapp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/publish.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06282722">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/project.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.6666665">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5860465">
-          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+        <state vertical-scroll-proportion="-5.785714">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.23809524">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
           <folding />
         </state>
       </provider>
