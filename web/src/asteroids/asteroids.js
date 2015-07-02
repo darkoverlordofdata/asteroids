@@ -2552,7 +2552,7 @@ ShipControlSystem = (function(_super) {
    */
 
   ShipControlSystem.prototype.updateNode = function(node, time) {
-    var body, className, control, methodName, rotation, signature, v, x, y;
+    var body, control, rotation, v, x, y;
     control = node.control;
     body = node.physics.body;
     if (this.warping !== 0) {
@@ -2570,14 +2570,6 @@ ShipControlSystem = (function(_super) {
     if (this.keyPoll.isDown(control.warp)) {
       this.warping = this.rnd.nextInt(30) + 30;
       return;
-    }
-    if (this.decelerate) {
-      className = 'org/cocos2dx/javascript/AppActivity';
-      methodName = 'updateLeaderboard';
-      signature = '(Ljava/lang/String;I)V';
-      if ((k++) === 1) {
-        jsb.reflection.callStaticMethod(className, methodName, signature, 'asteroids', 42);
-      }
       rotation = rotation || body.getAngVel();
       v = body.getVel();
       v.x -= Math.cos(rotation) * control.accelerationRate * time;
