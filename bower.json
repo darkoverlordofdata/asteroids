@@ -1,0 +1,28 @@
+{
+  "name": "asteroids",
+  "version": "0.0.1",
+  "authors": [
+    "darkoverlordofdata <darkoverlordofdata@gmail.com>"
+  ],
+  "description": "asteroids",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "tmp",
+    "build",
+    "node_modules",
+    "packages",
+    "src",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ash": "git://github.com/darkoverlordofdata/ash.coffee",
+    "localstoragedb": "~2.3.1"
+  },
+  "packages": {
+    "ash": "ash/dist/*.*",
+    "localstoragedb": "localstoragedb/*.js"
+  }
+}
