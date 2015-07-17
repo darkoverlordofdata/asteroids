@@ -41,8 +41,7 @@ Game = cc.Layer.extend
   ctor: ->
     @_super()
     Properties.init(@name, @properties)
-    #@rnd = new MersenneTwister()
-    @rnd = new ZRandom()
+    @rnd = if cc.sys.isNative then new Randum() else new MersenneTwister()
     @ash = new ash.core.Engine()
     @controller = new GameController(this, fontName: 'opendyslexic')
     for n, p of new ash.ext.Helper(Components, Nodes)

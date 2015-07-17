@@ -13,10 +13,10 @@
 ==================================================>
  */
 'use strict';
-var AnimationSystem, AsteroidDeathView, AsteroidView, AudioSystem, BackgroundView, BulletAgeSystem, BulletView, CollisionSystem, Components, DeathThroesSystem, Dot, Entities, FixedPhysicsSystem, Game, GameController, GameManager, GunControlSystem, HudSystem, HudView, KeyPoll, MersenneTwister, Nodes, Point, Properties, RenderSystem, ShipControlSystem, Sound, SpaceshipDeathView, SpaceshipView, SpriteAsteroid, SpriteBullet, SpriteSpaceship, SystemPriorities, WaitForStartSystem, WaitForStartView, ZRandom, res,
-  __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; },
-  __hasProp = {}.hasOwnProperty,
-  __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };
+var AnimationSystem, AsteroidDeathView, AsteroidView, AudioSystem, BackgroundView, BulletAgeSystem, BulletView, CollisionSystem, Components, DeathThroesSystem, Dot, Entities, FixedPhysicsSystem, Game, GameController, GameManager, GunControlSystem, HudSystem, HudView, KeyPoll, MersenneTwister, Nodes, Point, Properties, Randum, RenderSystem, ShipControlSystem, Sound, SpaceshipDeathView, SpaceshipView, SpriteAsteroid, SpriteBullet, SpriteSpaceship, SystemPriorities, WaitForStartSystem, WaitForStartView, res,
+  bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; },
+  extend = function(child, parent) { for (var key in parent) { if (hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; },
+  hasProp = {}.hasOwnProperty;
 
 res = {
   fb_login: 'res/images/fb-login.png',
@@ -59,11 +59,11 @@ MersenneTwister = (function() {
   MersenneTwister.prototype.mti = N + 1;
 
   function MersenneTwister(seed) {
-    var _i, _results;
+    var l, results;
     this.mt = (function() {
-      _results = [];
-      for (var _i = 0; 0 <= N ? _i < N : _i > N; 0 <= N ? _i++ : _i--){ _results.push(_i); }
-      return _results;
+      results = [];
+      for (var l = 0; 0 <= N ? l < N : l > N; 0 <= N ? l++ : l--){ results.push(l); }
+      return results;
     }).apply(this);
     switch (typeof seed) {
       case 'number':
@@ -326,15 +326,15 @@ Properties = (function() {
 
 })();
 
-ZRandom = (function() {
-  function ZRandom() {}
+Randum = (function() {
+  function Randum() {}
 
 
   /*
    * Generates a random boolean value.
    */
 
-  ZRandom.prototype.nextBool = function() {
+  Randum.prototype.nextBool = function() {
     return ((~~(Math.random() * 32767)) & 1) === 1;
   };
 
@@ -343,7 +343,7 @@ ZRandom = (function() {
    * Generates a random real value from 0.0, inclusive, to 1.0, exclusive.
    */
 
-  ZRandom.prototype.nextDouble = function() {
+  Randum.prototype.nextDouble = function() {
     return Math.random();
   };
 
@@ -352,11 +352,11 @@ ZRandom = (function() {
    * Generates a random int value from 0, inclusive, to max, exclusive.
    */
 
-  ZRandom.prototype.nextInt = function(max) {
+  Randum.prototype.nextInt = function(max) {
     return ~~(Math.random() * max);
   };
 
-  return ZRandom;
+  return Randum;
 
 })();
 
@@ -374,45 +374,45 @@ AsteroidDeathView = (function() {
   AsteroidDeathView.prototype.first = true;
 
   function AsteroidDeathView(game, radius) {
-    this.animate = __bind(this.animate, this);
-    var dot, i, _i;
+    this.animate = bind(this.animate, this);
+    var dot, i, l;
     this.dots = [];
-    for (i = _i = 0; _i < 8; i = ++_i) {
+    for (i = l = 0; l < 8; i = ++l) {
       dot = new Dot(game, game.rnd, radius);
       this.dots.push(dot);
     }
   }
 
   AsteroidDeathView.prototype.animate = function(time) {
-    var dot, _i, _j, _len, _len1, _ref, _ref1, _results;
+    var dot, l, len, len1, m, ref, ref1, results;
     if (this.first) {
       this.first = false;
-      _ref = this.dots;
-      for (_i = 0, _len = _ref.length; _i < _len; _i++) {
-        dot = _ref[_i];
+      ref = this.dots;
+      for (l = 0, len = ref.length; l < len; l++) {
+        dot = ref[l];
         dot.graphics.x = this.x;
         dot.graphics.y = this.y;
       }
     }
-    _ref1 = this.dots;
-    _results = [];
-    for (_j = 0, _len1 = _ref1.length; _j < _len1; _j++) {
-      dot = _ref1[_j];
+    ref1 = this.dots;
+    results = [];
+    for (m = 0, len1 = ref1.length; m < len1; m++) {
+      dot = ref1[m];
       dot.graphics.x += dot.velocity.x * time;
-      _results.push(dot.graphics.y += dot.velocity.y * time);
+      results.push(dot.graphics.y += dot.velocity.y * time);
     }
-    return _results;
+    return results;
   };
 
   AsteroidDeathView.prototype.dispose = function() {
-    var dot, _i, _len, _ref, _results;
-    _ref = this.dots;
-    _results = [];
-    for (_i = 0, _len = _ref.length; _i < _len; _i++) {
-      dot = _ref[_i];
-      _results.push(dot.graphics.removeFromParent(true));
+    var dot, l, len, ref, results;
+    ref = this.dots;
+    results = [];
+    for (l = 0, len = ref.length; l < len; l++) {
+      dot = ref[l];
+      results.push(dot.graphics.removeFromParent(true));
     }
-    return _results;
+    return results;
   };
 
   return AsteroidDeathView;
@@ -530,8 +530,8 @@ GameController = (function() {
    * @param options hash
    */
 
-  function GameController(game, options) {
-    this.game = game;
+  function GameController(game1, options) {
+    this.game = game1;
     this.fontName = options.fontName || this.fontName;
     this.controls = [];
   }
@@ -665,11 +665,11 @@ GameController = (function() {
 
     MultiTouchListener.prototype.control = null;
 
-    function MultiTouchListener(control) {
-      this.control = control;
-      this.onTouchesEnded = __bind(this.onTouchesEnded, this);
-      this.onTouchesMoved = __bind(this.onTouchesMoved, this);
-      this.onTouchesBegan = __bind(this.onTouchesBegan, this);
+    function MultiTouchListener(control1) {
+      this.control = control1;
+      this.onTouchesEnded = bind(this.onTouchesEnded, this);
+      this.onTouchesMoved = bind(this.onTouchesMoved, this);
+      this.onTouchesBegan = bind(this.onTouchesBegan, this);
 
       /*
        * onTouchBegan
@@ -681,7 +681,7 @@ GameController = (function() {
     }
 
     MultiTouchListener.prototype.onTouchesBegan = function(touches, event) {
-      var point, rect, touch, _base;
+      var base, point, rect, touch;
       touch = touches[0];
       point = touch.getLocation();
       rect = this.control.getBoundingBox();
@@ -690,8 +690,8 @@ GameController = (function() {
         point.y += rect.height / 2;
       }
       if (cc.rectContainsPoint(rect, point)) {
-        if (typeof (_base = this.control).onStart === "function") {
-          _base.onStart(touch, point);
+        if (typeof (base = this.control).onStart === "function") {
+          base.onStart(touch, point);
         }
         return true;
       }
@@ -707,7 +707,7 @@ GameController = (function() {
      */
 
     MultiTouchListener.prototype.onTouchesMoved = function(touches, event) {
-      var point, rect, touch, _base;
+      var base, point, rect, touch;
       touch = touches[0];
       point = touch.getLocation();
       rect = this.control.getBoundingBox();
@@ -715,8 +715,8 @@ GameController = (function() {
         point.x += rect.width / 2;
         point.y += rect.height / 2;
       }
-      if (typeof (_base = this.control).onMove === "function") {
-        _base.onMove(touch, point);
+      if (typeof (base = this.control).onMove === "function") {
+        base.onMove(touch, point);
       }
       return true;
     };
@@ -731,7 +731,7 @@ GameController = (function() {
      */
 
     MultiTouchListener.prototype.onTouchesEnded = function(touches, event) {
-      var point, rect, touch, _base;
+      var base, point, rect, touch;
       touch = touches[0];
       point = touch.getLocation();
       rect = this.control.getBoundingBox();
@@ -739,8 +739,8 @@ GameController = (function() {
         point.x += rect.width / 2;
         point.y += rect.height / 2;
       }
-      if (typeof (_base = this.control).onEnd === "function") {
-        _base.onEnd(touch, point);
+      if (typeof (base = this.control).onEnd === "function") {
+        base.onEnd(touch, point);
       }
       return true;
     };
@@ -767,8 +767,8 @@ HudView = (function() {
   HudView.prototype.rotation = 0;
 
   function HudView(game, stage) {
-    this.setScore = __bind(this.setScore, this);
-    this.setLives = __bind(this.setLives, this);
+    this.setScore = bind(this.setScore, this);
+    this.setLives = bind(this.setLives, this);
     var size;
     size = cc.director.getWinSize();
     this.graphics = new cc.DrawNode();
@@ -818,10 +818,10 @@ KeyPoll = (function() {
 
   KeyPoll.prototype.keys = [KeyPoll.KEY_LEFT, KeyPoll.KEY_RIGHT, KeyPoll.KEY_Z, KeyPoll.KEY_UP, KeyPoll.KEY_SPACE];
 
-  function KeyPoll(game) {
-    this.game = game;
-    this.isUp = __bind(this.isUp, this);
-    this.isDown = __bind(this.isDown, this);
+  function KeyPoll(game1) {
+    this.game = game1;
+    this.isUp = bind(this.isUp, this);
+    this.isDown = bind(this.isDown, this);
     this.states = {};
     cc.eventManager.addListener({
       event: cc.EventListener.KEYBOARD,
@@ -857,9 +857,9 @@ Point = (function() {
 
   Point.prototype.y = 0;
 
-  function Point(x, y) {
-    this.x = x != null ? x : 0;
-    this.y = y != null ? y : 0;
+  function Point(x2, y2) {
+    this.x = x2 != null ? x2 : 0;
+    this.y = y2 != null ? y2 : 0;
   }
 
   Point.distance = function(point1, point2) {
@@ -911,7 +911,7 @@ SpaceshipDeathView = (function() {
   SpaceshipDeathView.prototype.check = true;
 
   function SpaceshipDeathView(game) {
-    this.animate = __bind(this.animate, this);
+    this.animate = bind(this.animate, this);
     var color, rnd, v;
     rnd = game.rnd;
     color = cc.color(255, 255, 255, 255);
@@ -957,8 +957,8 @@ SpaceshipDeathView = (function() {
 SpaceshipView = (function() {
   SpaceshipView.prototype.graphics = null;
 
-  function SpaceshipView(game) {
-    this.game = game;
+  function SpaceshipView(game1) {
+    this.game = game1;
     this.graphics = new cc.DrawNode();
     this.game.addChild(this.graphics);
     this.draw(cc.color(255, 255, 255, 255));
@@ -1050,13 +1050,13 @@ WaitForStartView = (function() {
 
   isDesktop = !cc.sys.isMobile;
 
-  function WaitForStartView(game) {
+  function WaitForStartView(game1) {
     var size, x;
-    this.game = game;
-    this.onTouchEnded = __bind(this.onTouchEnded, this);
-    this.onTouchMoved = __bind(this.onTouchMoved, this);
-    this.onTouchBegan = __bind(this.onTouchBegan, this);
-    this.start = __bind(this.start, this);
+    this.game = game1;
+    this.onTouchEnded = bind(this.onTouchEnded, this);
+    this.onTouchMoved = bind(this.onTouchMoved, this);
+    this.onTouchBegan = bind(this.onTouchBegan, this);
+    this.start = bind(this.start, this);
     this.click = new Signal0();
     size = cc.director.getWinSize();
     x = Math.floor(size.width / 2);
@@ -1130,8 +1130,8 @@ Components = (function() {
     Asteroid: Asteroid = (function() {
       Asteroid.prototype.fsm = null;
 
-      function Asteroid(fsm) {
-        this.fsm = fsm;
+      function Asteroid(fsm1) {
+        this.fsm = fsm1;
       }
 
       return Asteroid;
@@ -1164,8 +1164,8 @@ Components = (function() {
     Collision: Collision = (function() {
       Collision.prototype.radius = 0;
 
-      function Collision(radius) {
-        this.radius = radius;
+      function Collision(radius1) {
+        this.radius = radius1;
       }
 
       return Collision;
@@ -1186,8 +1186,8 @@ Components = (function() {
     Display: Display = (function() {
       Display.prototype.graphic = 0;
 
-      function Display(graphic) {
-        this.graphic = graphic;
+      function Display(graphic1) {
+        this.graphic = graphic1;
       }
 
       return Display;
@@ -1297,10 +1297,10 @@ Components = (function() {
 
       Physics.prototype.entity = null;
 
-      function Physics(body, type, entity) {
-        this.body = body;
-        this.type = type;
-        this.entity = entity;
+      function Physics(body1, type1, entity1) {
+        this.body = body1;
+        this.type = type1;
+        this.entity = entity1;
       }
 
       return Physics;
@@ -1311,8 +1311,8 @@ Components = (function() {
 
       Position.prototype.rotation = 0;
 
-      function Position(x, y, rotation) {
-        this.rotation = rotation != null ? rotation : 0;
+      function Position(x, y, rotation1) {
+        this.rotation = rotation1 != null ? rotation1 : 0;
         this.position = new Point(x, y);
       }
 
@@ -1322,8 +1322,8 @@ Components = (function() {
     Spaceship: Spaceship = (function() {
       Spaceship.prototype.fsm = null;
 
-      function Spaceship(fsm) {
-        this.fsm = fsm;
+      function Spaceship(fsm1) {
+        this.fsm = fsm1;
       }
 
       return Spaceship;
@@ -1336,7 +1336,7 @@ Components = (function() {
 
       function WaitForStart(waitForStart) {
         this.waitForStart = waitForStart;
-        this.setStartGame = __bind(this.setStartGame, this);
+        this.setStartGame = bind(this.setStartGame, this);
         this.waitForStart.click.add(this.setStartGame);
       }
 
@@ -1596,10 +1596,10 @@ Entities = (function() {
 
   Entities.prototype.spaceshipId = 0;
 
-  function Entities(game) {
-    this.game = game;
-    this.createUserBullet = __bind(this.createUserBullet, this);
-    this.createSpaceship = __bind(this.createSpaceship, this);
+  function Entities(game1) {
+    this.game = game1;
+    this.createUserBullet = bind(this.createUserBullet, this);
+    this.createSpaceship = bind(this.createSpaceship, this);
     this.ash = this.game.ash;
     this.rnd = this.game.rnd;
     this.world = this.game.world;
@@ -1814,10 +1814,10 @@ SystemPriorities = (function() {
 
 })();
 
-RenderSystem = (function(_super) {
+RenderSystem = (function(superClass) {
   var Tau, j, k;
 
-  __extends(RenderSystem, _super);
+  extend(RenderSystem, superClass);
 
   RenderSystem.prototype.stage = null;
 
@@ -1832,7 +1832,7 @@ RenderSystem = (function(_super) {
   Tau = Math.PI * 2;
 
   function RenderSystem(game) {
-    this.update = __bind(this.update, this);
+    this.update = bind(this.update, this);
     this.nodes = game.ash.nodes;
   }
 
@@ -1874,11 +1874,11 @@ RenderSystem = (function(_super) {
 
 })(ash.core.System);
 
-AnimationSystem = (function(_super) {
-  __extends(AnimationSystem, _super);
+AnimationSystem = (function(superClass) {
+  extend(AnimationSystem, superClass);
 
   function AnimationSystem(parent) {
-    this.updateNode = __bind(this.updateNode, this);
+    this.updateNode = bind(this.updateNode, this);
     AnimationSystem.__super__.constructor.call(this, parent.ash.nodes.AnimationNode, this.updateNode);
   }
 
@@ -1890,19 +1890,19 @@ AnimationSystem = (function(_super) {
 
 })(ash.tools.ListIteratingSystem);
 
-AudioSystem = (function(_super) {
-  __extends(AudioSystem, _super);
+AudioSystem = (function(superClass) {
+  extend(AudioSystem, superClass);
 
   function AudioSystem(parent) {
-    this.updateNode = __bind(this.updateNode, this);
+    this.updateNode = bind(this.updateNode, this);
     AudioSystem.__super__.constructor.call(this, parent.ash.nodes.AudioNode, this.updateNode);
   }
 
   AudioSystem.prototype.updateNode = function(node, time) {
-    var each, sound, type, _ref;
-    _ref = node.audio.toPlay;
-    for (each in _ref) {
-      type = _ref[each];
+    var each, ref, sound, type;
+    ref = node.audio.toPlay;
+    for (each in ref) {
+      type = ref[each];
       sound = new type();
       sound.play(0, 1);
     }
@@ -1913,13 +1913,13 @@ AudioSystem = (function(_super) {
 
 })(ash.tools.ListIteratingSystem);
 
-BulletAgeSystem = (function(_super) {
-  __extends(BulletAgeSystem, _super);
+BulletAgeSystem = (function(superClass) {
+  extend(BulletAgeSystem, superClass);
 
   BulletAgeSystem.prototype.entities = null;
 
   function BulletAgeSystem(parent) {
-    this.updateNode = __bind(this.updateNode, this);
+    this.updateNode = bind(this.updateNode, this);
     BulletAgeSystem.__super__.constructor.call(this, parent.ash.nodes.BulletAgeNode, this.updateNode);
     this.entities = parent.entities;
   }
@@ -1938,14 +1938,14 @@ BulletAgeSystem = (function(_super) {
 
 })(ash.tools.ListIteratingSystem);
 
-CollisionSystem = (function(_super) {
+CollisionSystem = (function(superClass) {
 
   /*
    * Imports
    */
   var Asteroid, AsteroidHitShip, Audio, BulletHitAsteroid, Collision, DeathThroes, Display, Physics, Position, Spaceship;
 
-  __extends(CollisionSystem, _super);
+  extend(CollisionSystem, superClass);
 
   Asteroid = Components.Asteroid;
 
@@ -1978,11 +1978,11 @@ CollisionSystem = (function(_super) {
   CollisionSystem.prototype.collisions = null;
 
   function CollisionSystem(game) {
-    this.update = __bind(this.update, this);
-    this.collisionSeperate = __bind(this.collisionSeperate, this);
-    this.collisionPostSolve = __bind(this.collisionPostSolve, this);
-    this.collisionPreSolve = __bind(this.collisionPreSolve, this);
-    this.collisionBegin = __bind(this.collisionBegin, this);
+    this.update = bind(this.update, this);
+    this.collisionSeperate = bind(this.collisionSeperate, this);
+    this.collisionPostSolve = bind(this.collisionPostSolve, this);
+    this.collisionPreSolve = bind(this.collisionPreSolve, this);
+    this.collisionBegin = bind(this.collisionBegin, this);
     this.rnd = game.rnd;
     this.world = game.world;
     this.entities = game.entities;
@@ -2064,9 +2064,9 @@ CollisionSystem = (function(_super) {
     /*
      * Process the collision queue
      */
-    var a, b, body, offsetX, offsetY, points, position, radius, size, speedFactor, type, x, y, _ref;
+    var a, b, body, offsetX, offsetY, points, position, radius, ref, size, speedFactor, type, x, y;
     while (this.collisions.length) {
-      _ref = this.collisions.pop(), type = _ref.type, a = _ref.a, b = _ref.b;
+      ref = this.collisions.pop(), type = ref.type, a = ref.a, b = ref.b;
       if (type === BulletHitAsteroid) {
         if ((a.get(Physics) != null)) {
           this.entities.destroyEntity(a);
@@ -2128,13 +2128,13 @@ CollisionSystem = (function(_super) {
 
 })(ash.core.System);
 
-DeathThroesSystem = (function(_super) {
-  __extends(DeathThroesSystem, _super);
+DeathThroesSystem = (function(superClass) {
+  extend(DeathThroesSystem, superClass);
 
   DeathThroesSystem.prototype.entities = null;
 
   function DeathThroesSystem(game) {
-    this.updateNode = __bind(this.updateNode, this);
+    this.updateNode = bind(this.updateNode, this);
     DeathThroesSystem.__super__.constructor.call(this, game.ash.nodes.DeathThroesNode, this.updateNode);
     this.entities = game.entities;
   }
@@ -2161,10 +2161,10 @@ DeathThroesSystem = (function(_super) {
  *
  */
 
-FixedPhysicsSystem = (function(_super) {
+FixedPhysicsSystem = (function(superClass) {
   var TIME_STEP, k;
 
-  __extends(FixedPhysicsSystem, _super);
+  extend(FixedPhysicsSystem, superClass);
 
   TIME_STEP = 1 / 60;
 
@@ -2193,8 +2193,8 @@ FixedPhysicsSystem = (function(_super) {
   k = 0;
 
   function FixedPhysicsSystem(game) {
-    this.updateNode = __bind(this.updateNode, this);
-    this.update = __bind(this.update, this);
+    this.updateNode = bind(this.updateNode, this);
+    this.update = bind(this.update, this);
     var size;
     this.world = game.world;
     this.nodes = game.ash.nodes;
@@ -2235,7 +2235,7 @@ FixedPhysicsSystem = (function(_super) {
    */
 
   FixedPhysicsSystem.prototype.updateNode = function(node, time) {
-    var body, physics, position, x, x1, y, y1, _ref;
+    var body, physics, position, ref, x, x1, y, y1;
     position = node.position;
     physics = node.physics;
     body = physics.body;
@@ -2244,7 +2244,7 @@ FixedPhysicsSystem = (function(_super) {
      * Update the position component from Box2D model
      * Asteroids uses wraparound space coordinates
      */
-    _ref = body.p, x = _ref.x, y = _ref.y;
+    ref = body.p, x = ref.x, y = ref.y;
     x1 = x > this.width ? 0 : x < 0 ? this.width : x;
     y1 = y > this.height ? 0 : y < 0 ? this.height : y;
     if (x1 !== x || y1 !== y) {
@@ -2259,8 +2259,8 @@ FixedPhysicsSystem = (function(_super) {
 
 })(ash.core.System);
 
-GameManager = (function(_super) {
-  __extends(GameManager, _super);
+GameManager = (function(superClass) {
+  extend(GameManager, superClass);
 
   GameManager.prototype.parent = null;
 
@@ -2282,10 +2282,10 @@ GameManager = (function(_super) {
 
   GameManager.prototype.height = 0;
 
-  function GameManager(game) {
+  function GameManager(game1) {
     var size;
-    this.game = game;
-    this.update = __bind(this.update, this);
+    this.game = game1;
+    this.update = bind(this.update, this);
     this.entities = this.game.entities;
     this.rnd = this.game.rnd;
     this.nodes = this.game.ash.nodes;
@@ -2360,8 +2360,8 @@ GameManager = (function(_super) {
 
 })(ash.core.System);
 
-GunControlSystem = (function(_super) {
-  __extends(GunControlSystem, _super);
+GunControlSystem = (function(superClass) {
+  extend(GunControlSystem, superClass);
 
   GunControlSystem.prototype.shooting = false;
 
@@ -2370,7 +2370,7 @@ GunControlSystem = (function(_super) {
   GunControlSystem.prototype.entities = null;
 
   function GunControlSystem(game) {
-    this.updateNode = __bind(this.updateNode, this);
+    this.updateNode = bind(this.updateNode, this);
     GunControlSystem.__super__.constructor.call(this, game.ash.nodes.GunControlNode, this.updateNode);
     this.keyPoll = game.keyPoll;
     this.entities = game.entities;
@@ -2419,11 +2419,11 @@ GunControlSystem = (function(_super) {
 
 })(ash.tools.ListIteratingSystem);
 
-HudSystem = (function(_super) {
-  __extends(HudSystem, _super);
+HudSystem = (function(superClass) {
+  extend(HudSystem, superClass);
 
   function HudSystem(parent) {
-    this.updateNode = __bind(this.updateNode, this);
+    this.updateNode = bind(this.updateNode, this);
     HudSystem.__super__.constructor.call(this, parent.ash.nodes.HudNode, this.updateNode);
   }
 
@@ -2436,10 +2436,10 @@ HudSystem = (function(_super) {
 
 })(ash.tools.ListIteratingSystem);
 
-ShipControlSystem = (function(_super) {
+ShipControlSystem = (function(superClass) {
   var k;
 
-  __extends(ShipControlSystem, _super);
+  extend(ShipControlSystem, superClass);
 
   ShipControlSystem.prototype.warping = 0;
 
@@ -2465,9 +2465,9 @@ ShipControlSystem = (function(_super) {
 
   k = 0;
 
-  function ShipControlSystem(game) {
-    this.game = game;
-    this.updateNode = __bind(this.updateNode, this);
+  function ShipControlSystem(game1) {
+    this.game = game1;
+    this.updateNode = bind(this.updateNode, this);
     ShipControlSystem.__super__.constructor.call(this, this.game.ash.nodes.PhysicsControlNode, this.updateNode);
     this.rnd = this.game.rnd;
     this.width = this.game.width;
@@ -2603,8 +2603,8 @@ ShipControlSystem = (function(_super) {
 
 })(ash.tools.ListIteratingSystem);
 
-WaitForStartSystem = (function(_super) {
-  __extends(WaitForStartSystem, _super);
+WaitForStartSystem = (function(superClass) {
+  extend(WaitForStartSystem, superClass);
 
   WaitForStartSystem.prototype.engine = null;
 
@@ -2617,7 +2617,7 @@ WaitForStartSystem = (function(_super) {
   WaitForStartSystem.prototype.asteroids = null;
 
   function WaitForStartSystem(game) {
-    this.update = __bind(this.update, this);
+    this.update = bind(this.update, this);
     this.entities = game.entities;
   }
 
@@ -2696,17 +2696,17 @@ Game = cc.Layer.extend({
     bulletLinearVelocity: '150'
   },
   ctor: function() {
-    var n, p, _ref;
+    var n, p, ref;
     this._super();
     Properties.init(this.name, this.properties);
-    this.rnd = new ZRandom();
+    this.rnd = cc.sys.isNative ? new Randum() : new MersenneTwister();
     this.ash = new ash.core.Engine();
     this.controller = new GameController(this, {
       fontName: 'opendyslexic'
     });
-    _ref = new ash.ext.Helper(Components, Nodes);
-    for (n in _ref) {
-      p = _ref[n];
+    ref = new ash.ext.Helper(Components, Nodes);
+    for (n in ref) {
+      p = ref[n];
       this.ash[n] = p;
     }
     this.keyPoll = new KeyPoll(this);
@@ -2739,5 +2739,3 @@ Game.scene = function() {
   scene.addChild(new Game());
   return scene;
 };
-
-//# sourceMappingURL=asteroids.js.map

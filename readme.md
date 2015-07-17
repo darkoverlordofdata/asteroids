@@ -26,8 +26,9 @@ Play the online demo at [https://darkoverlordofdata.com/asteroids](https://darko
 $ git clone https://github.com/darkoverlordofdata/asteroids.git
 $ cd asteroids
 $ npm install
-$ grunt get
-$ grunt build
+$ bower install
+$ gulp get
+$ gulp build
 ```
 
 
