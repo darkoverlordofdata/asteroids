@@ -6,7 +6,6 @@ tmp
 build
 sign.sh
 
-web/frameworks/cocos2d-html5
 web/frameworks/js-bindings
 web/frameworks/runtime-src/proj.android
 web/frameworks/runtime-src/proj.ios_mac

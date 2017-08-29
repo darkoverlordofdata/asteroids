@@ -1,0 +1,5 @@
+/build
+/jniLibs
+!/res
+!/src
+!AndroidManifest.xml
